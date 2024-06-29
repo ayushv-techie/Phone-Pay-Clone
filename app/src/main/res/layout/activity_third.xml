@@ -1,0 +1,623 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:backgroundTint="#FFFFFF"
+    android:backgroundTintMode="src_over"
+    tools:context=".ThirdActivity">
+
+    <LinearLayout
+        android:id="@+id/linearLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="-3dp"
+        android:background="#FFFFFF"
+        android:backgroundTint="#FFFFFF"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/pin_digit_1"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/pin_dot"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <View
+                android:id="@+id/underline_1"
+                android:layout_width="45dp"
+                android:layout_height="2dp"
+                android:background="#D3D3D3" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/pin_digit_2"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/pin_dot"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <View
+                android:id="@+id/underline_2"
+                android:layout_width="45dp"
+                android:layout_height="2dp"
+                android:background="#D3D3D3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/pin_digit_3"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/pin_dot"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <View
+                android:id="@+id/underline_3"
+                android:layout_width="45dp"
+                android:layout_height="2dp"
+                android:background="#D3D3D3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/pin_digit_4"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/pin_dot"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <View
+                android:id="@+id/underline_4"
+                android:layout_width="45dp"
+                android:layout_height="2dp"
+                android:background="#D3D3D3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/pin_digit_5"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/pin_dot"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <View
+                android:id="@+id/underline_5"
+                android:layout_width="45dp"
+                android:layout_height="2dp"
+                android:background="#D3D3D3" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="4dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/pin_digit_6"
+                android:layout_width="8dp"
+                android:layout_height="8dp"
+                android:layout_marginBottom="0dp"
+                android:background="@drawable/pin_dot"
+                android:visibility="visible"
+                tools:visibility="visible" />
+
+            <View
+                android:id="@+id/underline_6"
+                android:layout_width="45dp"
+                android:layout_height="2dp"
+                android:background="#D3D3D3" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="265dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="0dp"
+        android:background="#E8E8E8"
+        android:backgroundTint="#E8E8E8"
+        android:columnCount="3"
+        android:rowCount="4">
+
+        <Button
+            android:id="@+id/btn_1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_marginHorizontal="0dp"
+            android:layout_marginTop="0dp"
+            android:backgroundTint="#E8E8E8"
+            android:backgroundTintMode="screen"
+            android:includeFontPadding="true"
+            android:insetTop="0dp"
+            android:insetBottom="20dp"
+            android:padding="0dp"
+            android:paddingTop="0dp"
+            android:text="1"
+            android:textAlignment="center"
+            android:textColor="#0D2C77"
+            android:textSize="35sp"
+            android:textStyle="normal"
+            android:typeface="sans"
+            app:cornerRadius="0dp"
+            app:rippleColor="#A5A2A2" />
+
+        <Button
+            android:id="@+id/btn_2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_marginHorizontal="0dp"
+            android:layout_marginTop="0dp"
+            android:backgroundTint="#E8E8E8"
+            android:backgroundTintMode="screen"
+            android:insetTop="0dp"
+            android:insetBottom="20dp"
+            android:padding="0dp"
+            android:paddingTop="0dp"
+            android:text="2"
+            android:textAlignment="center"
+            android:textColor="#0D2C77"
+            android:textSize="35sp"
+            android:textStyle="normal"
+            android:typeface="sans"
+            app:cornerRadius="0dp"
+            app:rippleColor="#A5A2A2" />
+
+        <Button
+            android:id="@+id/btn_3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="0"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_marginHorizontal="0dp"
+            android:layout_marginTop="0dp"
+            android:backgroundTint="#E8E8E8"
+            android:backgroundTintMode="screen"
+            android:insetTop="0dp"
+            android:insetBottom="20dp"
+            android:padding="0dp"
+            android:paddingTop="0dp"
+            android:text="3"
+            android:textAlignment="center"
+            android:textColor="#0D2C77"
+            android:textSize="35sp"
+            android:textStyle="normal"
+            android:typeface="sans"
+            app:cornerRadius="0dp"
+            app:rippleColor="#A5A2A2" />
+
+        <Button
+            android:id="@+id/btn_4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_marginHorizontal="0dp"
+            android:layout_marginTop="0dp"
+            android:backgroundTint="#E8E8E8"
+            android:backgroundTintMode="screen"
+            android:insetTop="0dp"
+            android:insetBottom="20dp"
+            android:padding="0dp"
+            android:paddingTop="0dp"
+            android:text="4"
+            android:textAlignment="center"
+            android:textColor="#0D2C77"
+            android:textSize="35sp"
+            android:textStyle="normal"
+            android:typeface="sans"
+            app:cornerRadius="0dp"
+            app:rippleColor="#A5A2A2" />
+
+        <Button
+            android:id="@+id/btn_5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_marginHorizontal="0dp"
+            android:layout_marginTop="0dp"
+            android:backgroundTint="#E8E8E8"
+            android:backgroundTintMode="screen"
+            android:insetTop="0dp"
+            android:insetBottom="20dp"
+            android:padding="0dp"
+            android:paddingTop="0dp"
+            android:text="5"
+            android:textAlignment="center"
+            android:textColor="#0D2C77"
+            android:textSize="35sp"
+            android:textStyle="normal"
+            android:typeface="sans"
+            app:cornerRadius="0dp"
+            app:rippleColor="#A5A2A2" />
+
+        <Button
+            android:id="@+id/btn_6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="1"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_marginHorizontal="0dp"
+            android:layout_marginTop="0dp"
+            android:backgroundTint="#E8E8E8"
+            android:backgroundTintMode="screen"
+            android:insetTop="0dp"
+            android:insetBottom="20dp"
+            android:padding="0dp"
+            android:paddingTop="0dp"
+            android:text="6"
+            android:textAlignment="center"
+            android:textColor="#0D2C77"
+            android:textSize="35sp"
+            android:textStyle="normal"
+            android:typeface="sans"
+            app:cornerRadius="0dp"
+            app:rippleColor="#A5A2A2" />
+
+        <Button
+            android:id="@+id/btn_7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:layout_marginHorizontal="0dp"
+            android:layout_marginTop="0dp"
+            android:backgroundTint="#E8E8E8"
+            android:backgroundTintMode="screen"
+            android:insetTop="0dp"
+            android:insetBottom="20dp"
+            android:padding="0dp"
+            android:paddingTop="0dp"
+            android:text="7"
+            android:textAlignment="center"
+            android:textColor="#0D2C77"
+            android:textSize="35sp"
+            android:textStyle="normal"
+            android:typeface="sans"
+            app:cornerRadius="0dp"
+            app:rippleColor="#A5A2A2" />
+
+        <Button
+            android:id="@+id/btn_8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_marginHorizontal="0dp"
+            android:layout_marginTop="0dp"
+            android:backgroundTint="#E8E8E8"
+            android:backgroundTintMode="screen"
+            android:insetTop="0dp"
+            android:insetBottom="20dp"
+            android:padding="0dp"
+            android:paddingTop="0dp"
+            android:text="8"
+            android:textAlignment="center"
+            android:textColor="#0D2C77"
+            android:textSize="35sp"
+            android:textStyle="normal"
+            android:typeface="sans"
+            app:cornerRadius="0dp"
+            app:rippleColor="#A5A2A2" />
+
+        <Button
+            android:id="@+id/btn_9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="2"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:layout_marginHorizontal="0dp"
+            android:layout_marginTop="0dp"
+            android:backgroundTint="#E8E8E8"
+            android:backgroundTintMode="screen"
+            android:insetTop="0dp"
+            android:insetBottom="20dp"
+            android:padding="0dp"
+            android:paddingTop="0dp"
+            android:text="9"
+            android:textAlignment="center"
+            android:textColor="#0D2C77"
+            android:textSize="35sp"
+            android:textStyle="normal"
+            android:typeface="sans"
+            app:cornerRadius="0dp"
+            app:rippleColor="#A5A2A2" />
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:layout_column="0"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#E8E8E8"
+            android:backgroundTintMode="screen"
+            android:insetBottom="8dp"
+            android:padding="45dp"
+            android:text="D"
+            android:textColor="#000000"
+            android:textSize="24sp"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/_0240621_174238"
+            app:iconSize="30sp"
+            app:iconTint="#00FFFFFF"
+            app:iconTintMode="screen"
+            app:rippleColor="#6A6565" />
+
+        <Button
+            android:id="@+id/btn_0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:layout_column="1"
+            android:layout_columnWeight="1"
+            android:layout_marginHorizontal="0dp"
+            android:layout_marginTop="0dp"
+            android:backgroundTint="#E8E8E8"
+            android:backgroundTintMode="screen"
+            android:insetTop="0dp"
+            android:insetBottom="20dp"
+            android:padding="0dp"
+            android:paddingTop="0dp"
+            android:text="0"
+            android:textAlignment="center"
+            android:textColor="#0D2C77"
+            android:textSize="35sp"
+            android:textStyle="normal"
+            android:typeface="sans"
+            app:cornerRadius="0dp"
+            app:rippleColor="#A5A2A2" />
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_row="3"
+            android:layout_rowWeight="1"
+            android:layout_column="2"
+            android:layout_columnWeight="1"
+            android:backgroundTint="#E8E8E8"
+            android:backgroundTintMode="screen"
+            android:insetBottom="8dp"
+            android:padding="45dp"
+            android:text="o"
+            android:textColor="#FFFFFF"
+            android:textColorLink="#E33838"
+            android:textSize="24sp"
+            app:cornerRadius="0dp"
+            app:icon="@drawable/final8"
+            app:iconSize="45sp"
+            app:iconTint="#00FFFFFF"
+            app:iconTintMode="screen"
+            app:rippleColor="#6A6565" />
+    </GridLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="144dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="250dp"
+        android:text="Axis Bank"
+        android:textAlignment="inherit"
+        android:textColor="#000000"
+        android:textColorLink="#FFFFFF"
+        android:textSize="16sp"
+        android:textStyle="normal"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="209dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="186dp"
+        android:text="XXXX5749"
+        android:textColor="#000000"
+        android:textSize="19.5sp"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="126dp"
+        android:text="ENTER 6-DIGIT UPI PIN"
+        android:textAlignment="center"
+        android:textColor="#000000" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="wrap_content"
+        android:layout_height="75dp"
+        android:layout_below="@+id/linearLayout3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="85dp"
+        android:layout_marginEnd="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/imageView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="0dp"
+            android:layout_marginRight="-2dp"
+            android:layout_marginBottom="0dp"
+            android:layout_weight="1"
+            android:backgroundTint="#FBEBB9"
+            android:backgroundTintMode="src_in"
+            android:includeFontPadding="true"
+            android:insetRight="-20dp"
+            android:paddingLeft="10dp"
+            android:paddingRight="0dp"
+            android:paddingBottom="0dp"
+            android:text="."
+            android:textAlignment="center"
+            app:cornerRadius="20dp"
+            app:icon="@drawable/_0240623_153336"
+            app:iconSize="30dp"
+            app:iconTint="#00FFFFFF"
+            app:iconTintMode="src_over"
+            app:rippleColor="#00D80000" />
+
+        <Button
+            android:id="@+id/textView4"
+            android:layout_width="237dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:backgroundTint="#FBEBB9"
+            android:backgroundTintMode="src_in"
+            android:foregroundTintMode="src_atop"
+            android:insetLeft="-18dp"
+            android:paddingLeft="18dp"
+            android:paddingTop="0dp"
+            android:paddingRight="5dp"
+            android:paddingBottom="0dp"
+            android:text="UPI PIN will keep your account secure from unauthorized access. Do not share this PIN with anyone."
+            android:textAlignment="center"
+            android:textColor="#676565"
+            android:textSize="15.5sp"
+            app:cornerRadius="20dp"
+            app:rippleColor="#00DF1B1B" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="109dp"
+        android:layout_height="28dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="39dp"
+        app:srcCompat="@drawable/upi_logo_vector" />
+
+    <LinearLayout
+        android:layout_width="413dp"
+        android:layout_height="48dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="-2dp"
+        android:background="#E1E1E1"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="340dp"
+            android:layout_height="46dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="0dp"
+            android:background="#EDEBEB"
+            android:paddingStart="10dp"
+            android:paddingTop="23dp"
+            android:text="Check Balance"
+            android:textColor="#292828"
+            android:textSize="15sp"
+            android:typeface="normal" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="63dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="0dp"
+            android:layout_weight="1"
+            android:background="#EDEBEB"
+            android:paddingTop="27dp"
+            app:srcCompat="@drawable/down" />
+    </LinearLayout>
+
+</RelativeLayout>
